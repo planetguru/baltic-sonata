@@ -83,8 +83,8 @@ right = \relative c'' {
   \time 2/8 <a a'>4  \time 4/8 < d,, f af >  < d'f a >  < d f af >  < d f a > < d f af >  < d f a >
 
   % third movement
-  r8 bf' a g ef'4 ~ ef8 d d4 ef,4 ~ ef ~ ef ~ r4 f g4 ~ g8 f f4 ~ f  \times 2/3 { fs g a }
-  r8 bf a g ef'4 ~ ef8 d d4 ef,4 ~ ef ~ ef ~ r4 d bf'4 ~ bf8  a g4 ~ g4 ~ g4 ~ g4
+  r8 bf' a g ef'4 ~ ef8 d d4 ef,4 ~ ef ~ ef ~ r4 f \grace { f } g4 ~ g8 f f4 ~ f  \times 2/3 { fs g a }
+  r8 bf a g ef'4 ~ ef8 d d4 ef,4 ~ ef ~ ef ~ r4 d \grace { a'8 }bf4 ~ bf8  a g4 ~ g4 ~ g4 ~ g4
 
   % octave phase %
   r8 <bf bf'> <a a'> <g g'> <ef' ef'>4 ~ <ef ef'>8 <d d'> <d d'>4 <ef, ef'>4 ~ <ef ef'> ~ <ef ef'> ~
